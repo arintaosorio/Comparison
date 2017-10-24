@@ -8,3 +8,5 @@
   3.1. Si no son iguales todos, regresar false.
   3.2. Si son exactamente iguales, continuar con el proceso.
 4. FIN
+
+![]()

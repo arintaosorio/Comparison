@@ -23,11 +23,18 @@ return false
 */
 
 var comparar = function(arreglo1,arreglo2){
-if (arreglo1.length === arreglo2){
-	return false
-} else{
-	for (var i=0; i<arreglo1.length; i++){
 
+if (arreglo1.length === arreglo2){
+	document.write ('tus arreglos no son iguales')
+}   else{
+
+	document.write ('tus arreglos son iguales ')
+	for (var i=0; i<arreglo1.length; i++){
+		if (arreglo1[i] === arreglo2 [i]){
+			return false
+
+		}
+	}
 }
 }
  
